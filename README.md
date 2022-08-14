@@ -13,7 +13,7 @@ Client is The Server
 ### Pii 
 
 Player Is Irrelevant. 
-> You participate in an active world. You are not special here.
+> You participate in an active world. You are not special here. In fact you are the minority.
 
 ### WFC 
 
