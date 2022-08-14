@@ -1,21 +1,5 @@
 # MauiStory
 
-for now the git history is going to make absolutely no sense. still doing experiments. and ill probably end up squashing the entire commit history... multiple times... into master/main(i just use CI)... with --force...
-> or just resetting the entire repo when I have the MVP done
-
-
-trying to do the MVP without using any search generic search engine that does not point to microsofts official docs. 
-
-I find this helps with new unique (often stupid) solutions.
-> Anyone want a tire? Its triangle and made from glass! ... Anyone...? ...no?...
-
-I generally just decompile the third party package and yoink the stuff I want, yay resharper, .net IL Layer and Ctrl + Space Intellisense 
-> DotNet is stupid easy to reverse. you can even get old comments back without symbols / pdb | https://github.com/icsharpcode/ILSpy
-
-still undecided if its going to be a maui package or if im going to fork maui and refactor the entire thing. 
-
-> Hopefully it will be a smooth to transition between the two regardless
-
 # Current plans
 
 Pii* 2d platformer rpg (Maplestory, DFO, Elsword, etc...)
@@ -83,3 +67,19 @@ A: Its open source. Can I contribute?
 
 # WHY?
 > Its a prototype for a game I have been planning over half my life. Even if it flops its still a learning experience.
+
+for now the git history is going to make absolutely no sense. still doing experiments. and ill probably end up squashing the entire commit history... multiple times... into master/main(i just use CI)... with --force...
+> or just resetting the entire repo when I have the MVP done
+
+
+trying to do the MVP without using any search generic search engine that does not point to microsofts official docs. 
+
+I find this helps with new unique (often stupid) solutions.
+> Anyone want a tire? Its triangle and made from glass! ... Anyone...? ...no?...
+
+I generally just decompile the third party package and yoink the stuff I want, yay resharper, .net IL Layer and Ctrl + Space Intellisense 
+> DotNet is stupid easy to reverse. you can even get old comments back without symbols / pdb | https://github.com/icsharpcode/ILSpy
+
+still undecided if its going to be a maui package or if im going to fork maui and refactor the entire thing. 
+
+> Hopefully it will be a smooth to transition between the two regardless
