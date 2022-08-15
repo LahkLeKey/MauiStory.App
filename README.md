@@ -56,7 +56,7 @@ e.g.) Player farms 100 materials then is provided with 3 options.
 >Depending how this is set up you could cause entire populations to die out due to a player overfarming resources and causing a drought in the area.
 
 Q: Anticheat?
->Standard deviation should be enough in theory. I have found that many anti-cheats shoot themselves in the foot with an over engineered solution. If the vast majority of your playerbase does not cheat you can use this data to identify outliers. You can just gracefully reject those with the only caviate being that anyone SUPER lucky will probably get disconnected or have the node rolled back in time.
+>Standard deviation should be enough in theory. I have found that many anti-cheats shoot themselves in the foot with an over engineered solution. If the vast majority of your playerbase does not cheat you can use this data to identify outliers. You can just gracefully reject those with the only caviate being that anyone lucky enough beyond the threshold of consideration will have the node rolled back in time and lose a bit of progression (without a disconnect).
 On the flip side If the vast majority of your playerbase is cheaters... are they really cheating?
 
 A: Funding?
