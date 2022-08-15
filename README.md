@@ -56,10 +56,10 @@ e.g.) Player farms 100 materials then is provided with 3 options.
 >Depending how this is set up you could cause entire populations to die out due to a player overfarming resources and causing a drought in the area.
 
 Q: Anticheat?
->Layers of standard deviation on various game elements should be enough in theory. I have found that many anti-cheats shoot themselves in the foot with an over engineered solution. If the vast majority of your playerbase does not cheat you can use this data to identify outliers. You can just gracefully reject those with the only caviate being that anyone lucky enough beyond the threshold of consideration will have the node rolled back in time and lose a bit of progression (without a disconnect). 
+>Layers of standard deviation on various game elements should be enough in theory. I have found that many anti-cheats shoot themselves in the foot with an over engineered solution. If the vast majority of your playerbase does not cheat you can use this data to identify outliers. You can just gracefully reject those with the only caviate being that anyone lucky enough beyond the threshold of consideration will have the node rolled back in time and lose a bit of progression (without a disconnect). On the flip side If the vast majority of your playerbase is cheaters... are they really cheating?
 
-e.g.) Player has been on for 72h straight. Is it a rmt bot? a player? or a player who sometimes bots? who gives a shit come back in like 12h.
-On the flip side If the vast majority of your playerbase is cheaters... are they really cheating?
+e.g.) Player has been on for 72h straight. Is it a rmt bot? a player? or a player who sometimes bots? who gives a shit its an anti cheat not an anticheatrmtblockplayervalidator come back late.
+
 
 >There will be a service called RNG Gods that will need to remain proprietary in order to get this working a bit faster. If I can stabilize it then secure it ill open source it. The private service will do 2 things. 1 audit nodes for suspicious activity. 2 gracefully inform the node that they are under investigation when they are approaching the danger zone. This will communicate to the player that they are in the grey zone and they should stop. 
 
