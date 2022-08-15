@@ -59,8 +59,14 @@ Q: Anticheat?
 >Standard deviation should be enough in theory. I have found that many anti-cheats shoot themselves in the foot with an over engineered solution. If the vast majority of your playerbase does not cheat you can use this data to identify outliers. You can just gracefully reject those with the only caviate being that anyone lucky enough beyond the threshold of consideration will have the node rolled back in time and lose a bit of progression (without a disconnect).
 On the flip side If the vast majority of your playerbase is cheaters... are they really cheating?
 
-A: Funding?
+Q: Funding?
 > Eh this one doesnt need any and its probably better if it has none. Getting funding means giving up creative control to another entity. Ill probably just do a 1$ patreon for people who want to tip and leave it at that. If 5000 people subscribe to patreon at 1$ that is more then enough to justify doing it full time. Right now it is capped at 7 slots per month until I have an MVP ready. Don't want to change my mind and piss people off. If its "not profitable" I dont care. If you wont play it I will. WeLovEFoRTniTE 👍👍🏻👍🏼👍🏽👍🏾👍🏿👎👎🏻👎🏼👎🏽👎🏾👎🏿👊👊🏻👊🏼👊🏽👊🏾👊🏿✊✊🏻✊🏼✊🏽✊🏾✊🏿🤛🤛🏻🤛🏼🤛🏽🤛🏾🤛🏿🤜🤜🏻🤜🏼🤜🏽🤜🏾🤜🏿🤞🤞🏻🤞🏼🤞🏽🤞🏾🤞🏿✌️✌🏻✌🏼✌🏽✌🏾✌🏿🤟🤟🏻🤟🏼🤟🏽🤟🏾🤟🏿🤘🤘🏻🤘🏼🤘🏽🤘🏾🤘🏿👌👌🏻👌🏼👌🏽👌🏾👌🏿👈👈🏻👈🏼👈🏽👈🏾👈🏿👉👉🏻👉🏼👉🏽👉🏾👉🏿👆👆🏻👆🏼👆🏽👆🏾👆🏿👇👇🏻👇🏼👇🏽👇🏾👇🏿☝️☝🏻☝🏼☝🏽☝🏾☝🏿✋✋🏻✋🏼✋🏽✋🏾✋🏿🤚🤚🏻🤚🏼🤚🏽🤚🏾🤚🏿🖐🖐🏻🖐🏼🖐🏽🖐🏾🖐🏿🖖🖖🏻🖖🏼🖖🏽🖖🏾🖖🏿👋👋🏻👋🏼👋🏽👋🏾👋🏿🤙🤙🏻🤙🏼🤙🏽🤙🏾🤙🏿💪💪🏻💪🏼💪🏽💪🏾💪🏿🖕🖕🏻🖕🏼🖕🏽🖕🏾🖕🏿
+
+Q: Hosting?
+> It will be so cheap to host this that its not even worth consideration. I will need to have some kind of blockchain type of verification going on and to scatter those nodes on random 1$ vps instances from the various providers. AWS, Azure, Vultr, Any of the little guys too. The bulk of the work happens on the replication nodes embedded into the player client.
+
+I bet I could host 1 million players on a 10$/month budget.
+
 
 A: Its open source. Can I contribute?
 > Sure after the MVP is ready I can start making abstraction layers for other people to use.
@@ -68,6 +74,7 @@ A: Its open source. Can I contribute?
 # WHY?
 > Its a prototype for a game I have been planning over half my life. Even if it flops its still a learning experience.
 
+# P.G...
 for now the git history is going to make absolutely no sense. still doing experiments. and ill probably end up squashing the entire commit history... multiple times... into master/main(i just use CI)... with --force...
 > or just resetting the entire repo when I have the MVP done
 
