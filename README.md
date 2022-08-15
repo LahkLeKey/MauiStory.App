@@ -112,3 +112,5 @@ I generally just decompile the third party package and yoink the stuff I want, y
 still undecided if its going to be a maui package or if im going to fork maui and refactor the entire thing. 
 
 > Hopefully it will be a smooth to transition between the two regardless
+
+investigating a login solution where you only need to provide a character name and you with be authenticated or prompted to create it if its not taken.
