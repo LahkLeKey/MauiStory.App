@@ -66,6 +66,9 @@ e.g.) Player has been on for 72h straight. Is it a rmt bot? a player? or a playe
 Q: Mods?
 >Heavily moddable. To the point where you could make your own embedded game from it if you really wanted. The toolkit will be more like a very high level game engine with 99% of what is needed to do basic actions abstracted away from the designer.
 
+Q: Timegating?
+>Id rather eat a fork
+
 Q: Funding?
 > Eh this one doesnt need any and its probably better if it has none. Getting funding means giving up creative control to another entity. Ill probably just do a 1$ patreon for people who want to tip and leave it at that. If 5000 people subscribe to patreon at 1$ that is more then enough to justify doing it full time. Right now it is capped at 7 slots per month until I have an MVP ready. Don't want to change my mind and piss people off. If its "not profitable" I dont care. If you wont play it I will. WeLovEFoRTniTE 👍👍🏻👍🏼👍🏽👍🏾👍🏿👎👎🏻👎🏼👎🏽👎🏾👎🏿👊👊🏻👊🏼👊🏽👊🏾👊🏿✊✊🏻✊🏼✊🏽✊🏾✊🏿🤛🤛🏻🤛🏼🤛🏽🤛🏾🤛🏿🤜🤜🏻🤜🏼🤜🏽🤜🏾🤜🏿🤞🤞🏻🤞🏼🤞🏽🤞🏾🤞🏿✌️✌🏻✌🏼✌🏽✌🏾✌🏿🤟🤟🏻🤟🏼🤟🏽🤟🏾🤟🏿🤘🤘🏻🤘🏼🤘🏽🤘🏾🤘🏿👌👌🏻👌🏼👌🏽👌🏾👌🏿👈👈🏻👈🏼👈🏽👈🏾👈🏿👉👉🏻👉🏼👉🏽👉🏾👉🏿👆👆🏻👆🏼👆🏽👆🏾👆🏿👇👇🏻👇🏼👇🏽👇🏾👇🏿☝️☝🏻☝🏼☝🏽☝🏾☝🏿✋✋🏻✋🏼✋🏽✋🏾✋🏿🤚🤚🏻🤚🏼🤚🏽🤚🏾🤚🏿🖐🖐🏻🖐🏼🖐🏽🖐🏾🖐🏿🖖🖖🏻🖖🏼🖖🏽🖖🏾🖖🏿👋👋🏻👋🏼👋🏽👋🏾👋🏿🤙🤙🏻🤙🏼🤙🏽🤙🏾🤙🏿💪💪🏻💪🏼💪🏽💪🏾💪🏿🖕🖕🏻🖕🏼🖕🏽🖕🏾🖕🏿
 
