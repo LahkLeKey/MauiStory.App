@@ -70,6 +70,12 @@ Q: Funding?
 Q: Hosting?
 > It will be so cheap to host this that its not even worth consideration. I will need to have some kind of blockchain type of verification going on and to scatter those nodes on random 1$ vps instances from the various providers. AWS, Azure, Vultr, Any of the little guys too. The bulk of the work happens on the replication nodes embedded into the player client.
 
+Q: Cost?
+> Its open source my dude. Its free
+
+Q: Microtransactions?
+> Fuck all that noise
+
 I bet I could host 1 million players on a 10$/month budget.
 
 
