@@ -1,0 +1,60 @@
+﻿<Card>
+    <CardHeader>
+        <CardTitle>Game Entity Designer</CardTitle>
+        <CardBody>
+            @* Select Entity Type *@
+            <Select @bind-SelectedValue="SelectedType" TValue="GameEntity.Type">
+                <SelectGroup Label="Valid Entity Types">
+                    <SelectItem Value="GameEntity.Type.Text">Text</SelectItem>
+                    <SelectItem Value="GameEntity.Type.Sprite">Sprite</SelectItem>
+                </SelectGroup>
+            </Select>
+            @switch (SelectedType)
+            {
+                case GameEntity.Type.Text:
+                    <TextEdit @bind-Text="@_designerEntity.RenderTarget" />
+                    break;
+
+                case GameEntity.Type.Sprite:
+                    <FileEdit Changed="OnLoadSprite"/>
+                    break;
+
+                default:
+                    <Badge Color="Color.Danger">Unknown Type</Badge>
+                    break;
+            }
+            @* Text Entity Controls *@
+            
+        </CardBody>
+        <CardFooter >
+            <pre><Code>@JsonConvert.SerializeObject(_designerEntity, Formatting.Indented)</Code></pre>
+        </CardFooter>
+    </CardHeader>
+</Card>
+
+@code
+{
+    /// <summary>
+    /// List of valid game entities
+    /// </summary>
+    [Parameter]
+    public List<GameEntity?>? GameEntities { get; set; }
+
+    /// <summary>
+    /// Selected entity type currently being designed
+    /// </summary>
+    [Parameter]
+    public GameEntity.Type SelectedType { get; set; }
+
+    private GameEntity _designerEntity = new();
+
+    private void GameObjectsChanged(string? gameObject)
+    {
+        GameEntities?.Add(_designerEntity);
+    }
+
+    private void OnLoadSprite(FileChangedEventArgs obj)
+    {
+        throw new NotImplementedException();
+    }
+}
