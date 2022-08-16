@@ -1,19 +1,21 @@
 ﻿@page "/"
+@using Newtonsoft.Json
 
 <Container Fluid Flex="Flex.Column" Border="Border.Dark">
     <EntitySpawer SpawnGameEntity="GameObjectsChanged" RenderTarget="GameObject"/>
-    @foreach (var gameObject in _gameObjects)
+    @foreach (GameEntity entity in GameEntities)
     {
-        <Div>@gameObject</Div>
+        <pre><Code>@JsonConvert.SerializeObject(entity, Formatting.Indented)</Code></pre>
     }
 </Container>
 
 @code
 {
-    readonly List<string?> _gameObjects = new();
+    public List<GameEntity> GameEntities = new();
+
 
     private void GameObjectsChanged(string? gameObject)
     {
-        _gameObjects.Add(gameObject);
+        GameEntities.Add(new GameEntity() { RenderTarget = $"GameEntity"});
     }
 }
