@@ -87,9 +87,6 @@ Q: Cost?
 Q: Microtransactions?
 > Fuck all that noise
 
-I bet I could host 1 million players on a 10$/month budget.
-
-
 A: Its open source. Can I contribute?
 > Sure after the MVP is ready I can start making abstraction layers for other people to use.
 
