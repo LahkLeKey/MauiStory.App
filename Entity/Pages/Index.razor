@@ -1,8 +1,19 @@
 ﻿@page "/"
-<Container Fluid Flex="Flex.Column">
 
-    @for (int i = 0; i < 10; i++)
+<Container Fluid Flex="Flex.Column" Border="Border.Dark">
+    <EntitySpawer SpawnGameEntity="GameObjectsChanged" RenderTarget="GameObject"/>
+    @foreach (var gameObject in _gameObjects)
     {
-        <GameEntity />
+        <Div>@gameObject</Div>
     }
 </Container>
+
+@code
+{
+    readonly List<string?> _gameObjects = new();
+
+    private void GameObjectsChanged(string? gameObject)
+    {
+        _gameObjects.Add(gameObject);
+    }
+}
