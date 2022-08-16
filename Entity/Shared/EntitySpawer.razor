@@ -1,0 +1,19 @@
+﻿@code {
+    /// <summary>
+    /// Spawn a game entity
+    /// </summary>
+    [Parameter]
+    public EventCallback<string?> SpawnGameEntity { get; set; }
+
+    /// <summary>
+    /// What we are going to be rendering.
+    /// </summary>
+    [Parameter]
+    public string? RenderTarget { get; set; }
+
+    private void SpawnGameEntityClicked()
+    {
+        SpawnGameEntity.InvokeAsync(RenderTarget);
+    }
+}
+<Button Block Clicked="SpawnGameEntityClicked" Color="Color.Primary">Spawn Game Entity</Button>
