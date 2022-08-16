@@ -64,7 +64,7 @@ e.g.) Player has been on for 72h straight. Is it a rmt bot? a player? or a playe
 >There will be a service called RNG Gods that will need to remain proprietary in order to get this working a bit faster. If I can stabilize it then secure it ill open source it. The private service will do 2 things. 1 audit nodes for suspicious activity. 2 gracefully inform the node that they are under investigation when they are approaching the danger zone. This will communicate to the player that they are in the grey zone and they should stop. 
 
 Q: DLC/Expansions?
->No and updates will be given through continious integration. You will get any patches in realtime as you play.
+>Free
 
 Q: Mods?
 >Heavily moddable. To the point where you could make your own embedded game from it if you really wanted. The toolkit will be more like a very high level game engine with 99% of what is needed to do basic actions abstracted away from the designer.
