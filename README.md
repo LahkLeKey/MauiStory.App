@@ -2,7 +2,7 @@
 
 # Current plans
 
-Pii* 2d platformer rpg (Maplestory, DFO, Elsword, etc...)
+2D PvE Sandbox MMORPG 
 
 ## Acronyms
 
