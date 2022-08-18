@@ -1,4 +1,8 @@
-﻿<Card>
+﻿@using DeBroglie.Topo
+@using DeBroglie.Models
+@using DeBroglie
+
+<Card>
     <CardHeader>
         <CardTitle>Game Entity Designer</CardTitle>
         <CardBody>
@@ -16,7 +20,7 @@
                     break;
 
                 case GameEntity.Type.Sprite:
-                    <FileEdit Changed="OnLoadSprite"/>
+                    <FileEdit Changed="OnLoadSprite" />
                     break;
 
                 default:
@@ -24,13 +28,23 @@
                     break;
             }
             @* Text Entity Controls *@
-            
+
         </CardBody>
-        <CardFooter >
+        <CardFooter>
             <pre><Code>@JsonConvert.SerializeObject(_designerEntity, Formatting.Indented)</Code></pre>
         </CardFooter>
     </CardHeader>
 </Card>
+
+<Button Clicked="@(() => { WFCTest(); })">Test WFC</Button>
+<pre>
+    @Chars?.GetValue(0, 0) @Chars?.GetValue(0, 1) @Chars?.GetValue(0, 2)
+    @Chars?.GetValue(1, 0) @Chars?.GetValue(1, 1) @Chars?.GetValue(1, 2)
+    @Chars?.GetValue(2, 0) @Chars?.GetValue(2, 1) @Chars?.GetValue(2, 2)
+</pre>
+
+
+
 
 @code
 {
@@ -56,5 +70,35 @@
     private void OnLoadSprite(FileChangedEventArgs obj)
     {
         throw new NotImplementedException();
+    }
+
+    public static string[,] Chars { get; set; }
+
+    //static string[,] Chars = new string[0, 0];
+
+    private static ITopoArray<string> WFCTest()
+    {
+        ITopoArray<string> sample = DeBroglie.Topo.TopoArray.Create(new[]
+        {
+            new[] { "-", "-", "-" },
+            new[] { "|", "+", "|" },
+            new[] { "-", "-", "-" }
+    }, periodic: false);
+
+        var model = new AdjacentModel(sample.ToTiles());
+
+        var topology = new GridTopology(3, 3, periodic: false);
+
+        var propagator = new TilePropagator(model, topology);
+
+        var status = propagator.Run();
+
+        //if (status != Resolution.Decided) throw new Exception("Undecided");
+
+        var output = propagator.ToValueArray<string>();
+
+        Chars = output.ToArray2d();
+
+        return output;
     }
 }
