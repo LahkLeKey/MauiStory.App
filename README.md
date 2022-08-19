@@ -2,7 +2,7 @@
 
 # Current plans
 
-Isometric PvE Sandbox MMORPG Game / Engine
+2D/3D Isometric "Paper Mario" PvE Sandbox MMORPG Game / Engine
 
 ## Acronyms
 
