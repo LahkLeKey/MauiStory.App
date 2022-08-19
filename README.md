@@ -2,7 +2,7 @@
 
 # Current plans
 
-2D PvE Sandbox MMORPG 
+Isometric PvE Sandbox MMORPG Game / Engine
 
 ## Acronyms
 
