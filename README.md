@@ -1,8 +1,17 @@
 # MauiStory
 
+Progress is normally streamed at Twitch.TV/LahkLeKey
+
 # Current plans
 
-2D PvE Sandbox MMORPG 
+Experimental Genetic Isometric MMORPG Game + Engine Toolkit. Written ontop of .NET MAUI Blazor Hybrid. 
+Heavily utilizing cutting edge AI and Quantum mechanic theories. 
+
+Demo Game Storyboard
+
+You are a Ka-Lua. A second born. Your kind is believed the be the seed of chaos. Depending who you ask they are a blessing or a curse.
+
+Ka-Lua are a phenomenom to prevent strange order from going to the absolute zero state. Which causes a "Big Bang" effect.
 
 ## Acronyms
 
@@ -20,26 +29,21 @@ Player Is Irrelevant.
   Wave Function Collapse. Average Person / Designer friendly way to generate random tilemaps. 
 > https://github.com/mxgmn/WaveFunctionCollapse
 
+### SD
+
+  Stable Diffusion
+> Text to image via AI.
+
+### SS
+
+  Sentient Set
+> A modified neural network that represents a "living" organism.
+
+
 ## FAQ
 
-Q: Why is your workflow so chaotic?
-
-> Thats how you get shit done fast. 
-The only result that matters is the end. I frequently scrap work when testing different angles of approach to a problem. 
-In the end its going to all be abstracted away anyways. This codebase is going to have very few raw assets (hopefully)
-
-Q: Its an MMO, normally made by a team that is probably large. WTF can you do?
-
-> Brooks's law is very... very real. I have no red tape, I want change? I make change. There are situations in AAA companies where a developer finishes his work in 15 minutes. Then just holds onto the work because of the abusive work culture of AAA game companies.
-
-This is why people get frusterated when it takes companies so long to do a simple fix that a modder can do.
-
-Q: bUtItZLikAmerrionLinesOCod3
-
-> I bet I can (hi future me dont kill me) do it under 80k lines and probably like 50mb of source code. DotNet abstraction can do some pretty nutty things. The difference between a 1x and a 10x developer is not that the 10x developer is 10x better / faster. They just solve problems in a way that causes 10x less work. I have seen codebases over a million lines that I could rewrite in a weekend. People will willingly use a bad workflow as a case of sunken cost fallacy. If you show them they can do the exact same thing in 3 days with like 1/50th of the lines of code many people will be personally offended thinking they wasted  20 years.
-
-Q: What about low player count? MMOs are is boring when dead.
-> This is where Pii comes in. Bots(AI).... Lots and lots of Bots... And they are probably more interesting then you! :D
+Q: Player count
+> The point of this is to be somewhat of a "simulation" and to allow average players to easily create or generate content that interestes them. The majority of the system is stabilized by player-like "NPCS". A group of 1-5 players will be ideal for most people. I am hoping to smoothly support up to 264 players per "node / node group" to allow this to scale "infinitely in the horizontal direction"
 
 Q: Economy Stability?
 > Pii 
@@ -76,38 +80,19 @@ Q: Dailies?
 >I hope its fun enough to play everday.
 
 Q: Funding?
-> Eh this one doesnt need any and its probably better if it has none. Getting funding means giving up creative control to another entity. Ill probably just do a 1$ patreon for people who want to tip and leave it at that. If 5000 people subscribe to patreon at 1$ that is more then enough to justify doing it full time. Right now it is capped at 7 slots per month until I have an MVP ready. Don't want to change my mind and piss people off. If its "not profitable" I dont care. If you wont play it I will. WeLovEFoRTniTE 👍👍🏻👍🏼👍🏽👍🏾👍🏿👎👎🏻👎🏼👎🏽👎🏾👎🏿👊👊🏻👊🏼👊🏽👊🏾👊🏿✊✊🏻✊🏼✊🏽✊🏾✊🏿🤛🤛🏻🤛🏼🤛🏽🤛🏾🤛🏿🤜🤜🏻🤜🏼🤜🏽🤜🏾🤜🏿🤞🤞🏻🤞🏼🤞🏽🤞🏾🤞🏿✌️✌🏻✌🏼✌🏽✌🏾✌🏿🤟🤟🏻🤟🏼🤟🏽🤟🏾🤟🏿🤘🤘🏻🤘🏼🤘🏽🤘🏾🤘🏿👌👌🏻👌🏼👌🏽👌🏾👌🏿👈👈🏻👈🏼👈🏽👈🏾👈🏿👉👉🏻👉🏼👉🏽👉🏾👉🏿👆👆🏻👆🏼👆🏽👆🏾👆🏿👇👇🏻👇🏼👇🏽👇🏾👇🏿☝️☝🏻☝🏼☝🏽☝🏾☝🏿✋✋🏻✋🏼✋🏽✋🏾✋🏿🤚🤚🏻🤚🏼🤚🏽🤚🏾🤚🏿🖐🖐🏻🖐🏼🖐🏽🖐🏾🖐🏿🖖🖖🏻🖖🏼🖖🏽🖖🏾🖖🏿👋👋🏻👋🏼👋🏽👋🏾👋🏿🤙🤙🏻🤙🏼🤙🏽🤙🏾🤙🏿💪💪🏻💪🏼💪🏽💪🏾💪🏿🖕🖕🏻🖕🏼🖕🏽🖕🏾🖕🏿
+> Patreon for people who want to tip
 
 Q: Hosting?
-> It will be so cheap to host this that its not even worth consideration. I will need to have some kind of blockchain type of verification going on and to scatter those nodes on random 1$ vps instances from the various providers. AWS, Azure, Vultr, Any of the little guys too. The bulk of the work happens on the replication nodes embedded into the player client.
+> Bulk of the work happens on the client via CITS. As population grows auditing nodes will be added.
 
 Q: Cost?
 > Its open source my dude. Its free
 
 Q: Microtransactions?
-> Fuck all that noise
+> No
 
 A: Its open source. Can I contribute?
 > Sure after the MVP is ready I can start making abstraction layers for other people to use.
 
 # WHY?
 > Its a prototype for a game I have been planning over half my life. Even if it flops its still a learning experience.
-
-# P.G...
-for now the git history is going to make absolutely no sense. still doing experiments. and ill probably end up squashing the entire commit history... multiple times... into master/main(i just use CI)... with --force...
-> or just resetting the entire repo when I have the MVP done
-
-
-trying to do the MVP without using any search generic search engine that does not point to microsofts official docs. 
-
-I find this helps with new unique (often stupid) solutions.
-> Anyone want a tire? Its triangle and made from glass! ... Anyone...? ...no?...
-
-I generally just decompile the third party package and yoink the stuff I want, yay resharper, .net IL Layer and Ctrl + Space Intellisense 
-> DotNet is stupid easy to reverse. you can even get old comments back without symbols / pdb | https://github.com/icsharpcode/ILSpy
-
-still undecided if its going to be a maui package or if im going to fork maui and refactor the entire thing. 
-
-> Hopefully it will be a smooth to transition between the two regardless
-
-investigating a login solution where you only need to provide a character name and you with be authenticated or prompted to create it if its not taken.
