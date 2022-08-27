@@ -1,8 +1,16 @@
 # MauiStory
 
+Progress is normally streamed at Twitch.TV/LahkLeKey
+
 # Current plans
 
-2D/3D Isometric "Paper Mario" PvE Sandbox MMORPG Game / Engine
+Isometric MMORPG Game + Engine Toolkit
+
+Demo Game Storyboard
+
+You are a Ka-Lua. A second born. Your kind is believed the be the seed of chaos. Depending who you ask they are a blessing or a curse.
+
+Ka-Lua are a phenomenom to prevent strange order from going to the absolute zero state. Which causes a "Big Bang" effect.
 
 ## Acronyms
 
