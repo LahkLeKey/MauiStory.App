@@ -129,4 +129,4 @@ still undecided if its going to be a maui package or if im going to fork maui an
 
 > Hopefully it will be a smooth to transition between the two regardless
 
-investigating a login solution where you only need to provide a character name and you with be authenticated or prompted to create it if its not taken.
+investigating a login solution where you only need to provide a character name and you with be authenticated or prompted to create it if its not taken. (A.k.a "Accountless" [opt into link email, no barrier to entry for new players])
