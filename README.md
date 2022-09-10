@@ -28,6 +28,11 @@ Player Is Irrelevant.
   Wave Function Collapse. Average Person / Designer friendly way to generate random tilemaps. 
 > https://github.com/mxgmn/WaveFunctionCollapse
 
+### SD
+
+  Stable Diffusion
+> Text to image via AI.
+
 ### SS
 
   Sentient Set
