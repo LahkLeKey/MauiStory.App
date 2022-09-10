@@ -28,6 +28,12 @@ Player Is Irrelevant.
   Wave Function Collapse. Average Person / Designer friendly way to generate random tilemaps. 
 > https://github.com/mxgmn/WaveFunctionCollapse
 
+### SS
+
+  Sentient Set
+> A modified neural network that represents a "living" organism.
+
+
 ## FAQ
 
 Q: Why is your workflow so chaotic?
