@@ -36,7 +36,7 @@ Player Is Irrelevant.
 ### SS
 
   Sentient Set
-> A modified neural network that represents a "living" organism.
+> A modified neural network that represents a "living" organism. (Will be in public repos when acceptable state)
 
 
 ## FAQ
