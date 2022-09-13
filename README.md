@@ -42,24 +42,13 @@ Player Is Irrelevant.
 
 ## FAQ
 
-Q: Why is your workflow so chaotic?
+Q: Its an MMO, normally made by a team that is probably large.
 
-> Thats how you get shit done fast. 
-The only result that matters is the end. I frequently scrap work when testing different angles of approach to a problem. 
-In the end its going to all be abstracted away anyways. This codebase is going to have very few raw assets (hopefully)
+> That is a main reason this repo exists. In my opinion Brooks's law is very... very real. I have no red tape, I want change? I make change.
 
-Q: Its an MMO, normally made by a team that is probably large. WTF can you do?
 
-> Brooks's law is very... very real. I have no red tape, I want change? I make change. There are situations in AAA companies where a developer finishes his work in 15 minutes. Then just holds onto the work because of the abusive work culture of AAA game companies.
-
-This is why people get frusterated when it takes companies so long to do a simple fix that a modder can do.
-
-Q: Codebase Size
-
-> I bet I can (hi future me dont kill me) do it under 80k lines and probably like 50mb of source code. .Net and LINQ are very powerful for reducing the size of codebases to mind boggling levels. The difference between a 1x and a 10x developer is not that the 10x developer is 10x better / faster. They just solve problems in a way that causes 10x less work.
-
-Q: What about low player count? MMOs are is boring when dead.
-> This is where Pii comes in. Bots(AI).... Lots and lots of Bots... And they are probably more interesting then you! :D
+Q: Player count
+> The point of this is to be somewhat of a "simulation" and to allow average players to easily create or generate content that interestes them. The majority of the system is stabilized by player-like "NPCS". A group of 1-5 players will be ideal for most people. I am hoping to smoothly support up to 264 players per "node / node group" to allow this to scale "infinitely in the horizontal direction"
 
 Q: Economy Stability?
 > Pii 
