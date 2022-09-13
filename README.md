@@ -39,6 +39,11 @@ Player Is Irrelevant.
   Sentient Set
 > A modified neural network that represents a "living" organism.
 
+### NEAT
+
+  Neuroevolution of augmenting topologies (TBD)
+> https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies
+
 
 ## FAQ
 
