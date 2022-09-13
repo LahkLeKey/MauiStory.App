@@ -42,11 +42,6 @@ Player Is Irrelevant.
 
 ## FAQ
 
-Q: Its an MMO, normally made by a team that is probably large.
-
-> That is a main reason this repo exists. In my opinion Brooks's law is very... very real. I have no red tape, I want change? I make change.
-
-
 Q: Player count
 > The point of this is to be somewhat of a "simulation" and to allow average players to easily create or generate content that interestes them. The majority of the system is stabilized by player-like "NPCS". A group of 1-5 players will be ideal for most people. I am hoping to smoothly support up to 264 players per "node / node group" to allow this to scale "infinitely in the horizontal direction"
 
