@@ -44,7 +44,7 @@ Player Is Irrelevant.
   Neuroevolution of augmenting topologies (TBD)
 > https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies
 
-### GCNA
+### GNCA
   
   Growing Neural Celluar Automata
 > More on this later
