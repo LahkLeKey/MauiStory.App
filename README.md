@@ -13,6 +13,13 @@ You are a Ka-Lua. A second born. Your kind is believed the be the seed of chaos.
 
 Ka-Lua are a phenomenom to prevent strange order from going to the absolute zero state. Which causes a "Big Bang" effect.
 
+## Interesting discovery while doing testing.
+
+Energy = (Mass * (Light / 2))²
+Entanglement = 2 * sqrt(Energy)
+Mass * Light = Entanglement
+Light = Entanglement / Mass
+
 ## Acronyms
 
 ### CITS
