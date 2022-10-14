@@ -15,10 +15,10 @@ Ka-Lua are a phenomenom to prevent strange order from going to the absolute zero
 
 ## Interesting discovery while doing testing.
 
-Energy = (Mass * (Light / 2))²
-Entanglement = 2 * sqrt(Energy)
-Mass * Light = Entanglement
-Light = Entanglement / Mass
+    Energy = (Mass * (Light / 2))²
+    Entanglement = 2 * sqrt(Energy)
+    Mass * Light = Entanglement
+    Light = Entanglement / Mass
 
 ## Acronyms
 
