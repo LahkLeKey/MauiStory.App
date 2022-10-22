@@ -4,8 +4,8 @@ Progress is normally streamed at Twitch.TV/LahkLeKey
 
 # Current plans
 
-Experimental Genetic Isometric MMORPG Game + Engine Toolkit. Written ontop of .NET MAUI Blazor Hybrid. 
-Heavily utilizing cutting edge AI and Quantum mechanic theories. 
+Experimental Genetic MMORPG Game + Engine Toolkit. Written ontop of .NET MAUI Blazor Hybrid. 
+Heavily utilizing cutting edge AI and Quantum mechanic theories. Supporting 2D first, plans to support isometric and 3d views after proof of concept complete.
 
 Demo Game Storyboard
 
